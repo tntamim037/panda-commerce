@@ -1,0 +1,115 @@
+
+*{
+      font-family: "Poppins", sans-serif;
+        /* margin: 0px;
+      padding: 0px; */
+      box-sizing: border-box;
+}
+.btn-pink{
+   border-radius: 14px; 
+   padding:16px 28px ;
+   background:linear-gradient(#FF136F,#FF589B);
+   border: none;
+   width: 168px;
+    height: 52px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+   
+   /* background-color: #FF136F; */
+}
+/* header */
+.header-item{
+    margin-top: 40px;
+}
+.container{
+    /* max-width: 84%; */
+    /* max-width: 79%; */
+    max-width: 1280px;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 49px;
+    
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    justify-content: ;
+       
+}
+.nav-items li{
+
+}
+.nav-items li a{
+    text-decoration: none;
+    color: #707070;
+    font-size: 16px;
+    font-weight: 500px;
+
+}
+.search-parent{
+position: relative;
+/* color: #F1F1F1; */
+  color: #BABABA;
+}
+.search-parent input{
+    background: rgb(241, 241, 241);
+    border-radius: 66px;
+    width: 500px;
+    padding: 16px  30px ;
+    font-size: 16px;
+    font-weight: medium;
+    color: #CCCCCC;
+    border: none;
+}
+.search-parent i{
+    position: absolute;
+    top: 17px;
+    right: 20px;
+  
+}
+/* banner */
+.banner-container{
+     width: 84%;
+    margin:0px auto 120px auto;
+}
+.banner{
+    background-color: #FEEAE9;
+    border-radius:10px ;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    padding: 48px;
+     margin-top: 55px;
+}
+
+.banner img{
+    width: 402px;
+    height: 378px;
+}
+.banner p{
+font-size: 16px;
+    font-weight:300;
+    color: #4E4E4E;
+    margin-bottom: 8px;
+}
+.banner h1{
+    font-size: 56px;
+    font-weight:bold;
+    color: #1F1F1F;
+    margin-bottom: 8px;
+}
+.banner-price{
+    font-size: 41px;
+    font-weight:500;
+    color: #FF136F;
+    margin-bottom: 8px;
+    /* display: block; */
+
+}
+

@@ -248,5 +248,31 @@ background: linear-gradient( rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%
  /* footer-content */
  .footer-content{
    text-align: center;
-  
+  padding: 146px 242px;
+  margin-top: 71px;
+ }
+ .footer-content h2{
+    font-size:30px ;
+    font-weight: 600;
+    color: #1F1F1F;
+ }
+ .footer-content p{
+    font-size:16px ;
+    font-weight: 480;
+    color: #707070;
+ }
+ .footer-content .email{
+  border: none;
+  border-radius: ;
+  background-color: #FFFFFF;
+  padding: 20px 30px;
+  font-size: 24px;
+  font-weight: 400;
+ color: #CCCCCC;
+ }
+ .footer{
+  width: 84%;
+    margin:0px auto 64px auto;
+    background-color: #FFF2F1;
+    border-radius: 20px;
  }

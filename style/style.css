@@ -1,3 +1,4 @@
+/* mejor  */
 
 *{
       font-family: "Poppins", sans-serif;
@@ -5,6 +6,20 @@
       padding: 0px; */
       box-sizing: border-box;
 }
+
+/* big  */
+.banner-container{
+     width: 84%;
+    margin:0px auto 120px auto;
+}
+
+
+/* small  */
+.categories-container{
+    width: 79%%;
+    margin:0px auto 71px auto;
+}
+
 .btn-pink{
    border-radius: 14px; 
    padding:16px 28px ;
@@ -37,7 +52,7 @@ nav{
 .nav-items{
     display: flex;
     list-style: none;
-    gap: 10px;
+    gap: 20px;
     justify-content: ;
        
 }
@@ -73,10 +88,7 @@ position: relative;
   
 }
 /* banner */
-.banner-container{
-     width: 84%;
-    margin:0px auto 120px auto;
-}
+
 .banner{
     background-color: #FEEAE9;
     border-radius:10px ;
@@ -113,3 +125,23 @@ font-size: 16px;
 
 }
 
+
+/* categories-container */
+
+.card{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    gap: 5px;
+    padding: 20px;
+    background:linear-gradient(#FFD019,#FF9C35);
+}
+.card{
+    font-size: ;
+    font-weight: ;
+    color: #000;
+}
+.categories-card{
+    display: flex;
+    gap: 25px;
+}

@@ -7,19 +7,11 @@
       box-sizing: border-box;
 }
 
-/* big  */
-.banner-container{
-     width: 84%;
-    margin:0px auto 120px auto;
+.common-title{
+    font-size: 36px;
+    font-weight:bold ;
+    color: #1F1F1F;
 }
-
-
-/* small  */
-.categories-container{
-    width: 79%%;
-    margin:0px auto 71px auto;
-}
-
 .btn-pink{
    border-radius: 14px; 
    padding:16px 28px ;
@@ -33,16 +25,57 @@
    
    /* background-color: #FF136F; */
 }
-/* header */
-.header-item{
-    margin-top: 40px;
+.btn{
+   border-radius: 10px; 
+   padding:16px 28px ;
+   background-color: #000000;
+   border: none;
+   width: 128px;
+    height: 52px;
+    color: white;
+    font-size: 12px;
+    font-weight: medium;
+    align-items: center;
+    margin: 20px 96px;
+   
+   /* background-color: #FF136F; */
+}
+.see-all{
+    font-size: 30px;
+    font-weight: medium;
+    color: #FF9D00;
+}
+
+/* big  */
+.banner-container{
+     width: 84%;
+    margin:0px auto 64px auto;
 }
 .container{
     /* max-width: 84%; */
     /* max-width: 79%; */
-    max-width: 1280px;
+    max-width: 1200px;
     margin: auto;
 }
+
+/* small  */
+.categories-container,.shoes-container{
+    width: 79%%;
+    margin:0px auto 97px auto;
+}
+.categories,.shoes{
+    /* max-width: 84%; */
+    /* max-width: 79%; */
+    max-width: 1128px;
+    margin: auto;
+}
+
+
+/* header */
+.header-item{
+    margin-top: 40px;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -130,18 +163,67 @@ font-size: 16px;
 
 .card{
     display: flex;
+    flex: 1;
     justify-content:space-between ;
     align-items: center;
     gap: 5px;
+    /* width: 359px;
+    height: 120px; */
     padding: 20px;
+    border-radius: 10px;
     background:linear-gradient(#FFD019,#FF9C35);
 }
-.card{
-    font-size: ;
-    font-weight: ;
-    color: #000;
+
+.card h3{
+    font-size: 36px;
+    font-weight:500 ;
+    color: #FFFFFF;
 }
+
 .categories-card{
     display: flex;
-    gap: 25px;
+    gap: 25px; 
 }
+.card2{
+background: linear-gradient( rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+}
+.card3{
+    background:linear-gradient(#3F07F8,#4289FF);
+}
+
+/* main  */
+.shoes-container{
+    background-color: #F4F4F4;
+}
+ /* shoes  */
+ .shoes-text{
+    display: flex;
+    justify-content: space-between;
+    
+ }
+ .shoes-cards{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding-bottom: 16px;
+
+ }
+ .shoes-card{
+    background-color: white;
+    border-radius: 20px;
+ }
+ .shoes-card img{
+    width:336px;
+     height:203px;
+ }
+ .shoes-card p{
+   
+    padding: 0px 20px;
+    
+ }
+  .shoes-card h3{
+ 
+    padding: 0px 20px;
+  }
